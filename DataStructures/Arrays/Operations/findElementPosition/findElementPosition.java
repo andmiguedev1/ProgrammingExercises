@@ -33,7 +33,7 @@ class Finding
         // Find any expense value inside an array 
         int exampleValue = 256.00;
 
-         // Call the linear search function and store the result 
+        // Call the linear search function and store the result 
         int searchPosition = findElementPosition(exampleArray, exampleLength, exampleValue); 
        
         if (searchPosition == - 1) 
