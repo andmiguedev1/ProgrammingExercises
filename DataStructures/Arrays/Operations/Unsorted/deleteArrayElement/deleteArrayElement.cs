@@ -45,7 +45,7 @@ class Operations
         // Print the toolkit prices list with new price
         Console.WriteLine("\n Customer Toolkit Prices (Today, 6:02pm): "); 
         for (count = 0; count < updateArray; count++) 
-          Console.Write(exampleArray[count]+" "); 
+          Console.Write(exampleArray[count] + " "); 
           Console.WriteLine(); 
     }  
 } 

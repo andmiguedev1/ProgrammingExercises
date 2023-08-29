@@ -33,7 +33,7 @@ int main()
     int exampleValue = 115.00;
 
     // Call the linear search function and store the result 
-    int resultSearch = findElementPosition(exampleArray, exampleArray, exampleValue); 
+    int resultSearch = findElementPosition(exampleArray, exampleLength, exampleValue); 
   
     if (resultSearch == - 1) 
         printf("Sorry! The given expense you are searching was not found."); 

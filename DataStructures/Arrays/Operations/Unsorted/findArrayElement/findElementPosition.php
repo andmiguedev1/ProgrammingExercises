@@ -10,7 +10,6 @@ function findElementPosition($givenArray, $lengthArray, $findElement)
 } 
   
 // Driver Code 
-
 function main()
 {
   // A list of monthly expenses as an array

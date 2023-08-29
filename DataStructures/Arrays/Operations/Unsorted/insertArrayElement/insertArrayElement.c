@@ -46,7 +46,7 @@ int main()
     
     // Print the phone charge list with new charge
     printf("\n Recent Phone Charges: "); 
-    for (count = 0; i < exampleLength; count++) 
+    for (count = 0; i < updateArray; count++) 
         printf("%d  ", exampleArray[count]); 
 
     // End program

@@ -23,8 +23,8 @@ def main():
   print(exampleArray) 
     
   # Print the phone charge list with new charge
-  insertArrayElement(exampleArray, exampleValue) 
+  updateArray = insertArrayElement(exampleArray, exampleValue) 
   print("Recent Phone Charges: ") 
-  print(exampleArray) 
+  print(updateArray) 
 
 main()

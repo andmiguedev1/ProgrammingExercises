@@ -50,7 +50,7 @@ class Operations
 
         // Print the phone charge list with new charge 
         Console.Write("\n Recent Phone Charges:"); 
-        for (count = 0; count < exampleLength; count++) 
+        for (count = 0; count < updateArray; count++) 
             Console.Write(exampleArray[count] + " ");             
     } 
 } 
