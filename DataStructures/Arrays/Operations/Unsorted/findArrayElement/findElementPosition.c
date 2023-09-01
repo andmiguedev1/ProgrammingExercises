@@ -5,8 +5,6 @@
 * the exact place where is located. Otherwise return -1, if its
 * not found.
 *
-* Example: int Expenses[] = {12.95, 120.00, 56.99, 115.00} 
-*
 */
 
 #include<stdio.h> 

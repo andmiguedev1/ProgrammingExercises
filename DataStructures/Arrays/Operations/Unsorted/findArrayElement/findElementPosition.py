@@ -29,6 +29,6 @@ def main():
   if searchPosition == -1: 
     print ("Sorry! The given expense you are searching was not found.")
   else: 
-    print ("Search results: Expense was found on: " + str(searchPosition))   
+    print ("Search item was found in position: " + str(searchPosition))   
 
 main()
