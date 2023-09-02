@@ -2,7 +2,7 @@ using System;
   
 class Operations 
 { 
-    static int deleteArrayElement(int[] givenArray, int deleteElement) 
+    static int deleteUnsortedElement(int[] givenArray, int deleteElement) 
     { 
       // Make instance of class that holds function
       Operations operation = new Operations();
@@ -40,7 +40,7 @@ class Operations
           Console.Write(exampleArray[count] + " "); 
           Console.WriteLine(); 
       
-        updateArray = deleteArrayElement(exampleArray, exampleValue); 
+        updateArray = deleteUnsortedElement(exampleArray, exampleValue); 
 
         // Print the toolkit prices list with new price
         Console.WriteLine("\n Customer Toolkit Prices (Today, 6:02pm): "); 

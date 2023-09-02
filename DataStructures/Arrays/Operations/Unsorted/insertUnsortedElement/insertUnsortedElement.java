@@ -11,7 +11,7 @@
   
 class Operations
 {   
-    static int insertArrayElement(int givenArray[], int insertElement) 
+    static int insertUnsortedElement(int givenArray[], int insertElement) 
     {
       int arrayLength = givenArray.length; 
       int lastElement = arrayLength - 1;
@@ -41,7 +41,7 @@ class Operations
         for (count = 0; count < exampleLength; count++) 
             System.out.print(exampleArray[count] + " "); 
        
-        updateArray = insertArrayElement(exampleArray, exampleValue); 
+        updateArray = insertUnsortedElement(exampleArray, exampleValue); 
        
         // Print the phone charge list with new charge
         System.out.print("\n Recent Phone Charges:"); 

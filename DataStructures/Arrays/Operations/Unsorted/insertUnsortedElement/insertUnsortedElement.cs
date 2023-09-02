@@ -15,7 +15,7 @@ class Operations
 { 
       
     // Function to insert a given   
-    static int insertArrayElement(int[] givenArray, int insertElement) 
+    static int insertUnsortedElement(int[] givenArray, int insertElement) 
     { 
         int arrayLength = givenArray.Length;
         int lastElement = arrayLength - 1;
@@ -46,7 +46,7 @@ class Operations
             Console.Write(exampleArray[count] + " "); 
             Console.WriteLine(); 
       
-        updateArray = insertArrayElement(exampleArray, exampleValue); 
+        updateArray = insertUnsortedElement(exampleArray, exampleValue); 
 
         // Print the phone charge list with new charge 
         Console.Write("\n Recent Phone Charges:"); 

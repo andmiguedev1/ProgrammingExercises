@@ -1,6 +1,6 @@
 from findElementPosition.py import findElementPosition
 
-def deleteArrayElement(givenArray, deleteElement):
+def deleteUnsortedElement(givenArray, deleteElement):
   lengthArray = len(givenArray)
   givenArray.remove(deleteElement)
 
@@ -16,7 +16,7 @@ def main():
   print exampleArray
     
   # Print the toolkit prices list with new price
-  updateArray = deleteArrayElement(exampleArray, exampleValue) 
+  updateArray = deleteUnsortedElement(exampleArray, exampleValue) 
   print("Customer Toolkit Prices (Today, 6:02pm): ") 
   print(updateArray) 
 

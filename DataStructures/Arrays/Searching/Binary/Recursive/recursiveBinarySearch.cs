@@ -38,7 +38,7 @@ static int recursiveBinarySearch(int[] givenArray, int lowPointer, int highPoint
 public static void Main()
 {
     int[] exampleArray = {27, 12, 128, 45, 537, 256, 4, 79};
-    int exampleLength = exampleArray.length; 
+    int exampleLength = exampleArray.Length; 
     int exampleValue = 4;
 
     int searchResult = recursiveBinarySearch(exampleArray, 0, exampleLength, exampleValue);

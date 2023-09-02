@@ -2,7 +2,7 @@ import findElementPosition;
 
 class Operations
 {  
-    static int deleteArrayElement(int givenArray[], int deleteElement) 
+    static int deleteUnsortedElement(int givenArray[], int deleteElement) 
     {
         int arrayLength = givenArray.length;
         int findElement = findElementPosition(givenArray, deleteElement); 
@@ -38,7 +38,7 @@ class Operations
         for (count = 0; count < exampleLength; count++) 
           System.out.print(exampleArray[count] + " "); 
        
-        updateArray = deleteArrayElement(exampleArray, exampleValue); 
+        updateArray = deleteUnsortedElement(exampleArray, exampleValue); 
 
         // Print the toolkit prices list with new price
         System.out.println("\n Customer Toolkit Prices (Today, 6:02pm): "); 

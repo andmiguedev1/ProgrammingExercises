@@ -9,7 +9,7 @@
 #
 #
   
-def insertArrayElement(givenArray, insertElement): 
+def insertUnsortedElement(givenArray, insertElement): 
     givenArray.append(insertElement) 
   
 def main():
@@ -23,7 +23,7 @@ def main():
   print(exampleArray) 
     
   # Print the phone charge list with new charge
-  updateArray = insertArrayElement(exampleArray, exampleValue) 
+  updateArray = insertUnsortedElement(exampleArray, exampleValue) 
   print("Recent Phone Charges: ") 
   print(updateArray) 
 

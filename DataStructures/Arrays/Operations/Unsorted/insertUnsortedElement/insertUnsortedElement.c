@@ -11,7 +11,7 @@
 
 #include<stdio.h> 
 
-int insertArrayElement(int givenArray[], int insertElement) 
+int insertUnsortedElement(int givenArray[], int insertElement) 
 { 
     int arrayElement = sizeof(givenArray) / sizeof(givenArray[0]); 
     int lastElement = arrayElement - 1;
@@ -42,7 +42,7 @@ int main()
     for (count = 0; count < exampleLength; count++) 
         printf("%d  ", exampleArray[count]); 
    
-    updateArray = insertArrayElement(exampleArray, exampleValue); 
+    updateArray = insertUnsortedElement(exampleArray, exampleValue); 
     
     // Print the phone charge list with new charge
     printf("\n Recent Phone Charges: "); 

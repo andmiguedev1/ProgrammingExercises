@@ -16,7 +16,7 @@
 
 #include "findElementPosition.c"
 
-int deleteArrayElement(int givenArray[], int deleteElement)
+int deleteUnsortedElement(int givenArray[], int deleteElement)
 {
   int arrayLength = sizeof(givenArray) / sizeof(givenArray[0]);
   
@@ -51,7 +51,7 @@ int main()
     for (count = 0; count < exampleLength; count++) 
         printf("%d  ", exampleArray[count]);
 
-    updateArray = deleteArrayElement(exampleArray, exampleValue)
+    updateArray = deleteUnsortedElement(exampleArray, exampleValue)
 
     // Print the toolkit prices list with new price
     printf("\n Customer Toolkit Prices (Today, 6:02pm): "); 
