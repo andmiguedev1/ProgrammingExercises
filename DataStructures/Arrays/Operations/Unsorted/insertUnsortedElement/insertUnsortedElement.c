@@ -12,9 +12,11 @@
 #include<stdio.h> 
 
 int insertUnsortedElement(int givenArray[], int insertElement) 
-{ 
-    int arrayElement = sizeof(givenArray) / sizeof(givenArray[0]); 
-    int lastElement = arrayElement - 1;
+{   
+    // Get the length of the example array
+    int lengthArray = sizeof(givenArray) / sizeof(givenArray[0]); 
+    
+    int lastElement = lengthArray - 1;
     
     // Check if the array is out of bounds
     if (lastElement >= lengthArray) 
@@ -32,8 +34,6 @@ int main()
 { 
     // A list of additional phone charges
     int exampleArray[] = {15.59, 10.99, 23.78, 15.99, 23.69};
-    // Get the length of the example array
-    int exampleLength = sizeof(exampleArray) / sizeof(exampleArray[0]);
     // Declare value for last phone charge
     int count, exampleValue = 45.21; 
     
