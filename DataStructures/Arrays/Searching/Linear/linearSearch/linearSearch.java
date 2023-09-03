@@ -1,3 +1,14 @@
+/**
+* Algorithm
+*
+* Write a function that searchs for an element in the array.
+* Start with leftmost element in the array, and one by one
+* compare searchValue with each element in the array.
+*
+* Check if searchValue matches an element in the array, then
+* return its position. Otherwise if its not found, return -1
+* 
+*/
 
 class Operations
 {
